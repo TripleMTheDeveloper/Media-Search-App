@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1.5rem;
+}
+
+h2{
+  font-size: 90px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.favorites-dropdown-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    position: absolute; /* Position the form absolutely */
+    top: 10px; /* Adjust the top spacing */
+    left: 80px; /* Adjust the right spacing */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.figure {
+  background-color: #2c2c2c; /* Example background color */
+  padding: 10px;          /* Padding inside the figure */
+  border-radius: 5px;     /* Rounded corners */
+  height: 400px;          /* Fixed height for consistent card size */
+  display: flex;          /* Flexbox for alignment */
+  flex-direction: column; /* Ensure vertical alignment */
+  overflow: hidden;       /* Hide any overflow content */
+  width: 375px;
+  margin: 250px 30px;
+}
+
+
+.figure-img {
+  width: 100%;            /* Ensure images fill the container */
+  height: 200px;          /* Fixed height for images */
+  object-fit: cover;      /* Ensure images cover the container */
+}
+
+
+.figure-caption {
+  color: #fff;            /* Text color */
+  text-align: center;     /* Center align text */
+  font-size: 5px;        /* Adjust font size */
+  padding: 5px;          /* Padding inside the caption */
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.align-items-stretch {
+  align-items: stretch; /* Make sure items stretch to container's height */
+}
+
+
+.page-header {
+  position: absolute;
+  top: 10px;
+  left: -50px; /* Adjust to move to the far left */
+}
+
+.itunes-search-form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+  position: absolute; /* Position the form absolutely */
+  top: 10px; /* Adjust the top spacing */
+  right: 20px; /* Adjust the right spacing */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.search-input {
+  width: 165px; /* Adjust width as needed */
+  margin-right: 10px;
+}
+
+.itunes-search-form .btn-primary {
+  margin-left: 5px;
+}
+
+
+.position-relative {
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  padding-top: 60px; /* Adjust if necessary */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center items */
+}
+
+.page-content{
+    margin-top: 200px;
+    padding: 20px;
+}
+
+.results{
+    padding-top: 100px;
+}
+
+.dropdown-button{
+    margin-right: 10px;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom */
+    left: 995px;  /* Distance from the right */
+    display: block;
+}
+
+/* HomePage.css */
+.add-to-favorites-btn {
+  display: block; /* Make the button a block element */
+  width: 89%; /* Make the button take the full width of its container */
+  margin-top: 10px; /* Add some space above the button */
+  padding: 10px; /* Add some padding for better appearance */
+  background-color: #da2121; /* Bootstrap primary color */
+  color: #ffffff; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center text */
+  font-size: 16px; /* Adjust font size */
+}
+
+.add-to-favorites-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.remove-from-favorites-btn{
+  display: block; /* Make the button a block element */
+  width: 89%; /* Make the button take the full width of its container */
+  margin-top: 10px; /* Add some space above the button */
+  padding: 10px; /* Add some padding for better appearance */
+  background-color: #da2121; /* Bootstrap primary color */
+  color: #ffffff; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center text */
+  font-size: 16px; /* Adjust font size */
+}
+
+.section{
+  text-align: left;
+  padding: 90px 0px;
+}
+
+
+
